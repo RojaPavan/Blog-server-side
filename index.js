@@ -16,7 +16,7 @@ app.use(cors());
 app.use("/api/user", router);
 app.use("/api/blog", blogRouter);
 app.get("/", (req, res) => {
-  res.status(200).send("<h1>Welcome to PostTracker Application</h1>");
+  res.status(200).send("<h1>Welcome to Blog Writing Application</h1>");
 });
 
 mongoose
